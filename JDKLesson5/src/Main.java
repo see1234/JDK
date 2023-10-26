@@ -43,7 +43,6 @@ class Filosovi extends Thread {
             } else {
                 synchronized (neighbors[rightNeighbor]) {
                     synchronized (neighbors[leftNeighbor]) {
-                        // Едим
                         eat();
                         eatCount++;
                     }
